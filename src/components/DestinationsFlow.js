@@ -100,9 +100,9 @@ const DestinationsFlow = () => {
         </div>
 
         {/* ---- Mobile Hint ---- */}
-        <p className="text-sm text-gray-400 mt-6 md:hidden animate-pulse">
+        {/* <p className="text-sm text-gray-400 mt-6 md:hidden animate-pulse">
           ← Swipe to explore destinations →
-        </p>
+        </p> */}
       </div>
     </section>
   );

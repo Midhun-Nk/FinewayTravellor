@@ -30,7 +30,7 @@ export const Fleet = () => {
   return (
     <section
       id="fleet"
-      className="md:py-20 bg-gradient-to-b from-white to-orange-50"
+      className="md:py-20 bg-gradient-to-b from-white to-orange-50 mb-10 pb-10"
     >
       <div className="mx-auto text-center">
          <span
@@ -56,16 +56,8 @@ export const Fleet = () => {
         </p>
 
         {/* Horizontal Scroll Section */}
-        <div
-          className="
-            flex gap-6 md:gap-8 
-            overflow-x-auto overflow-y-hidden scrollbar-hide
-            scrollbar-thin scrollbar-thumb-orange-400 scrollbar-track-orange-100
-            snap-x snap-mandatory
-            pb-6 px-4  md:px-10
-             md:mx-0
-          "
-        >
+      <div className="flex overflow-x-auto gap-6 pb-4 pl-8 scrollbar-hide scrollbar-track-orange-100 md:justify-center md:pl-0 md:ml-0">
+
           {fleet.map((item) => (
             <div
               key={item.title}
@@ -95,7 +87,7 @@ export const Fleet = () => {
                 <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-700 leading-relaxed text-sm md:text-base">
+                <p className="text-gray-700 leading-relaxed text-sm md:text-base ">
                   {item.desc}
                 </p>
               </div>
@@ -104,9 +96,9 @@ export const Fleet = () => {
         </div>
 
         {/* Scroll hint (mobile only) */}
-        <p className="text-sm text-gray-400 mt-4 md:hidden animate-pulse">
+        {/* <p className="text-sm text-gray-400 mt-4 md:hidden animate-pulse">
           ← Swipe to explore more vehicles →
-        </p>
+        </p> */}
       </div>
     </section>
   );
