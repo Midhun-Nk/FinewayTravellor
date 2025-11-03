@@ -70,7 +70,7 @@ export const Contacts = () => (
             </a>
           </div>
           <div className="text-sm text-gray-400 space-y-1">
-            <p>Facebook: <span className="text-white">Fine-way-Travels</span></p>
+            <p>Facebook: <span className="text-white">Fine way Travels</span></p>
             <p>Instagram: <span className="text-white">@fine__way</span></p>
             <p>YouTube: <span className="text-white">@fine__waytravels</span></p>
           </div>
@@ -88,7 +88,6 @@ export const Contacts = () => (
               <img src="./insta_qr.png" alt="QR code for Instagram" />
             </div>
           </div>
-          <p className="text-sm text-gray-500">(Replace with actual QR codes)</p>
         </div>
 
       </div>
